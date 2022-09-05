@@ -7,10 +7,10 @@ int main()
     printf("Enter a number and Digit\n");
     scanf("%d%d",&m,&n);
     result=CD(m,n);
-    if(result==0)
-    printf("%d is not prime",a);
+    if(result==1)
+    printf("%d is present",n);
     else
-    printf("%d is prime",a);
+    printf("%d is not present",n);
     getch();
     return 0;
 }

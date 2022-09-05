@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int primefactor(int);
+void primefactor(int);
 int main()
 {
     int a;
@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 
-int primefactor(int x)
+void primefactor(int x)
 {
     int i;
     for(i=2;x>1;i++)
